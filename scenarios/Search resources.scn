@@ -1,0 +1,7 @@
+Tags:Regression,Resource
+Preconditions:Go to TesConnect site,Go to add new resource page
+Save a new resources search:
+#Search for resources called "test"
+#Verify search results contain "test"
+#Save the search
+#Verify search term "test" has been saved

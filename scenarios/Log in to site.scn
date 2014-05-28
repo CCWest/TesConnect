@@ -1,0 +1,29 @@
+Tags:
+Preconditions:Go to TesConnect site
+|Users@|Type|Username|Password|
+|Existing user|mattaus1|password|
+|Existing admin user|tes_bev|password|
+|Non authenticated user|mattnotauth||
+|Non registered user|mattnotexist||
+Log in as existing user:
+#Go to Login page
+#Log in as "mattaus1"
+#Verify user is logged in as "mattaus1"
+#Log out
+
+Log in as existing admin user, Log in as existing user:
+#Go to Login page
+#Log in as "tes_bev"
+#Verify user is logged in as "tes_bev"
+#Log out
+
+Log in as non authenticated user, Log in as existing user:
+#Go to Login page
+#Log in as "mattnotauth"
+#Verify validation message "Username or password incorrect." is presented
+#Go to homepage
+
+Log in as non registered user, Log in as existing user, Log in as non authenticated user:
+#Go to Login page
+#Log in as "mattnotexist"
+#Verify validation message "Username or password incorrect." is presented

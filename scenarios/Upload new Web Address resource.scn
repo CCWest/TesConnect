@@ -1,0 +1,10 @@
+Tags:
+Preconditions:Go to TesConnect site,Go to add new resource page
+Upload new web address resource:
+#Select web address option
+#Enter resource url "www.google.co.uk"
+#Select resource type "Revision aid" "Blog"
+#Select resource mappings "KS2" "English" "Poetry texts" "Free verse"
+#Enter resource title "Test web address resource" and description "Test web address description"
+#Submit new resource
+#Verify resource detail contains "Test web address resource" "Test web address description"

@@ -1,0 +1,10 @@
+Tags:Resource,Regression,Smoke
+Preconditions:Go to TesConnect site,Go to add new resource page
+Upload new file resource, Upload new web address resource:
+#Select Choose File button
+#Enter file path and upload
+#Select resource type "Revision aid" "Audio"
+#Select resource mappings "KS2" "English" "Poetry texts" "Free verse"
+#Enter resource title "Test file resource" and description "Test file description"
+#Submit new resource
+#Verify resource detail contains "Test file resource" "Test file description"
