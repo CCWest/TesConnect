@@ -18,6 +18,7 @@ public class GoToTesConnectSite {
 
 	public GoToTesConnectSite(WebDriver browser) {
 		this.browser = browser;
+		browser.manage().window().maximize();
 		browser.get("http://test4-www.tes.co.uk/home.aspx");
 		browser.findElement(masthead.CookieAcceptButton).click();
 	}
