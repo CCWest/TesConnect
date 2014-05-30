@@ -7,7 +7,6 @@ public class resources {
 	public static class AddNewResourcePage {
 		
 		public static class AddItems {
-			public static final By FileLabel = By.cssSelector("label[for=typeFile]");
 			public static final By WebAddressButton = By.id("typeLink");
 			public static final By WebAddressInput = By.cssSelector("input.item");
 			public static final By AddButton = By.id("addItem");
@@ -34,6 +33,8 @@ public class resources {
 			public static final By AgreeAndFinishButton = By.id("ContentPlaceHolder2_SaveButton");
 			
 		}
+		
+		
 
 	}
 	
@@ -60,6 +61,19 @@ public class resources {
 		public static final By FirstSavedSearchRemoveButton = By.id("ContentPlaceHolder2_ucSavedSearch_rptSavedSearches_hypDeleteSaveSearch_0");
 		public static final By FirstSavedSearchLink = By.cssSelector(".savedSearchItem>.savedSearch>a");
 		
+	}
+	
+	public static class Footer {
+		public static final By HomeLink = By.cssSelector("div.nav>ul>li:nth-child(1)>a");
+		public static final By SubscribeLink = By.cssSelector("div.nav>ul>li:nth-child(2)>a");
+		public static final By AdvertiseLink = By.cssSelector("div.nav>ul>li:nth-child(3)>a");
+		public static final By ContactLink = By.cssSelector("div.nav>ul>li:nth-child(4)>a");
+		public static final By TCsLink = By.cssSelector("div.nav>ul>li:nth-child(5)>a");
+		public static final By PrivacyLink = By.cssSelector("div.nav>ul>li:nth-child(6)>a");
+		public static final By CookiesLink = By.cssSelector("div.nav>ul>li:nth-child(7)>a");
+		public static final By SitemapLink = By.cssSelector("div.nav>ul>li:nth-child(8)>a");
+		public static final By LinkToUsLink = By.cssSelector("div.nav>ul>li:nth-child(9)>a");
+		public static final By TwitterLink = By.cssSelector("div.nav>ul>li:nth-child(10)>a");
 	}
 	
 }
