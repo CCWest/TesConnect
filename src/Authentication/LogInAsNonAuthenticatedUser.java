@@ -29,7 +29,7 @@ public class LogInAsNonAuthenticatedUser {
 	}
 
 	public void goToHomepage() throws Exception {
-		browser.findElement(authentication.LoginPage.MastheadImage).click();
+		browser.findElement(authentication.LoginPage.MastheadImage).click();	
 	}
 
 }
