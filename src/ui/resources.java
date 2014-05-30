@@ -7,6 +7,7 @@ public class resources {
 	public static class AddNewResourcePage {
 		
 		public static class AddItems {
+			public static final By FileLabel = By.cssSelector("label[for=typeFile]");
 			public static final By WebAddressButton = By.id("typeLink");
 			public static final By WebAddressInput = By.cssSelector("input.item");
 			public static final By AddButton = By.id("addItem");

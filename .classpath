@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="imgs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="com.thoughtworks.twist.CORE"/>
+	<classpathentry kind="con" path="C:/Program Files/Twist/plugins/com.thoughtworks.twist.driver.webdriver_2.15.0.13607-30d7c0bbb97e5b.jar"/>
+	<classpathentry kind="con" path="com.thoughtworks.twist.language.JAVA"/>
+	<classpathentry kind="lib" path="C:/Users/mfoulkes/Downloads/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mfoulkes/workspace/lib/flash-selenium.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
